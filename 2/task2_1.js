@@ -6,7 +6,7 @@
 */
 
 
-var num = parseInt(prompt('Какое число?', 100));
+var num = parseInt(prompt('Какое число?'));
 
 for (var i = 1; i < num; i++)
 {

@@ -1,15 +1,23 @@
 function myFunction1() {
-    document.getElementById("calc1").innerHTML = document.getElementById("value1").value;
+  var input = document.getElementById("value1").value;
+  var output = input;
+  document.getElementById("calc1").innerHTML = output;
 }
 
 function myFunction2() {
-    document.getElementById("calc2").innerHTML = document.getElementById("value2").value;
+  var input = document.getElementById("value2").value;
+  var output = input;
+  document.getElementById("calc2").innerHTML = output;
 }
 
 function myFunction3() {
-    document.getElementById("calc3").innerHTML = document.getElementById("value3").value;
-}
+    var input = document.getElementById("value3").value;
+    var output = input;
+    document.getElementById("calc3").innerHTML = output;
+  }
 
 function myFunction4() {
-    document.getElementById("calc4").innerHTML = document.getElementById("value4").value;
+  var input = document.getElementById("value4").value;
+  var output = input;
+  document.getElementById("calc4").innerHTML = output;
 }
